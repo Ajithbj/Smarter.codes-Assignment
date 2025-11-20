@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Search, Globe, ChevronRight, Loader2, Link, FileText } from 'lucide-react';
 
-// --- Constants & Helper Functions ---
 
-const API_BASE_URL = 'http://127.0.0.1:8000'; // Update this if your FastAPI server runs on a different port
+const API_BASE_URL = 'http://127.0.0.1:8000'; 
 
 const ResultCard = ({ result, index }) => (
     <div className="result-card">
@@ -25,8 +24,6 @@ const ResultCard = ({ result, index }) => (
     </div>
 );
 
-// --- Main Application Component ---
-
 const App = () => {
     const [url, setUrl] = useState('');
     const [query, setQuery] = useState('');
@@ -42,7 +39,6 @@ const App = () => {
         setLoading(true);
         setIsSearchPerformed(true);
 
-        // Simple validation
         if (!url || !query) {
             setError("Please enter both a valid URL and a search query.");
             setLoading(false);
