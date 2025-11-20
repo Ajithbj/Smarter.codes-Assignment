@@ -1,4 +1,4 @@
-# RAG-Style Website Content Search
+# Website Content Search
   This is a Single-Page Application (SPA) designed to fetch content from a given URL, chunk it by token size, and perform a semantic search using vector embeddings to find the most relevant content chunks based on a user query.
   
 ✨ Key Features
