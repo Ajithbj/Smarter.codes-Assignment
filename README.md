@@ -45,18 +45,17 @@ Install the Node.js dependencies:
 
 Bash
 
-npm install
-# or yarn install
+npm install or yarn install
 Note: The only necessary dependencies are React, react-dom, and the lucide-react icons.
 
 Start the React development server:
 
 Bash
 
-npm start
-# or yarn start
+npm start or yarn start
 The frontend should open automatically in your browser at http://localhost:3000.
- Prerequisites and DependenciesBackend Dependencies (requirements.txt)Plaintextfastapi>=0.104.1
+ 
+Prerequisites and DependenciesBackend Dependencies (requirements.txt)Plaintextfastapi>=0.104.1
 uvicorn[standard]>=0.23.2
 pydantic>=2.4.2
 requests>=2.31.0
