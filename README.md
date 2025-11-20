@@ -62,7 +62,9 @@ Bash
 npm start or yarn start
 The frontend should open automatically in your browser at http://localhost:3000.
  
-Prerequisites and DependenciesBackend Dependencies (requirements.txt)Plaintextfastapi>=0.104.1
+Prerequisites and Dependencies
+  Backend Dependencies:
+(requirements.txt)Plaintextfastapi>=0.104.1
 uvicorn[standard]>=0.23.2
 pydantic>=2.4.2
 requests>=2.31.0
@@ -71,7 +73,9 @@ transformers>=4.34.0
 torch>=2.1.0
 numpy>=1.26.1
 faiss-cpu>=1.7.4
-Frontend Dependencies (package.json)JSON{
+
+Frontend Dependencies:
+  (package.json)JSON{
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
