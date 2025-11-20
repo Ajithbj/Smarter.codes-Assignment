@@ -1,11 +1,18 @@
 # RAG-Style Website Content Search
   This is a Single-Page Application (SPA) designed to fetch content from a given URL, chunk it by token size, and perform a semantic search using vector embeddings to find the most relevant content chunks based on a user query.
-  ✨ Key Features
+  
+✨ Key Features
+
   Frontend: Built with React for a responsive, single-page interface.
+
   Backend: Powered by FastAPI (Python) for high-performance and asynchronous processing.
+
   HTML Parsing & Cleaning: Uses BeautifulSoup to fetch HTML and strip unnecessary elements (scripts, styles, headers, footers).
+
   Tokenization & Chunking: Uses the Hugging Face transformers library (specifically the all-MiniLM-L6-v2 model tokenizer) to accurately chunk content into $\le 500$ token segments.
+
   Vector Database Simulation: Utilizes the Faiss library for efficient, in-memory indexing and semantic search, simulating the functionality of a production-grade vector database like Milvus or Weaviate.
+
 🛠️ Setup and Running Locally
   This project consists of two independent services: the FastAPI backend and the React frontend. Both must be run concurrently.
 
